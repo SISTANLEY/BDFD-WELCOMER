@@ -1,0 +1,12 @@
+Trigger : (your prefix)setwelcomebackground
+Code : $nomention
+ 
+$onlyIf[$checkContains[$message;https://;http://;img;.com;.net;.es;.;:;//;/;.jpg;.png;.gif;.webp;q=;images?;image?;img?;encrypted]==true;**$username** Please, make sure you wrote a valid background image URL]
+ 
+$onlyPerms[manageserver;You can't edit welcome background because you don't have permissions]
+ 
+$setServerVar[welcome bg;$message]
+ 
+$description[**Successfully setted background for the welcome**]
+$image[$message]
+$color[01FC19]
