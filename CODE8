@@ -1,0 +1,9 @@
+Trigger : (your prefix)setautonick
+Code : $nomention
+ 
+$setServerVar[stanley nick;$message]
+ 
+$onlyPerms[admin;managenicknames;You don't have sufficient permissions to execute this command]
+ 
+$description[Successfully setted auto nick to $message]
+$color[$random[000000;999999]]
