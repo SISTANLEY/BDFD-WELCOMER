@@ -1,0 +1,7 @@
+welcome channel        no value
+welcome msg            no value
+welcome bg             no value
+welcome color          $random[000000;999999] / Or change as you like
+dm welcome             no
+stanley role              no value
+stanley nick              no value
