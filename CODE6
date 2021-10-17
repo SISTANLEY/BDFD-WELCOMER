@@ -1,0 +1,16 @@
+Trigger : (your prefix)setautorole
+Code : $nomention
+ 
+ 
+$setServerVar[stanley role;$mentionedRoles[>]]
+ 
+ 
+$description[Successfully setted auto role to <@&$mentionedRoles[1]>]
+$color[$random[000000;999999]]
+ 
+ 
+$onlyPerms[ManageRoles;admin;You need Manage role perm to execute this command]
+$onlyBotPerms[admin;ManageRoles;Please give manage role perms to me]
+ 
+ 
+$onlyIf[$mentionedRoles[<]!=; Please mention a role]
