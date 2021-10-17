@@ -1,0 +1,9 @@
+Trigger : (yohr prefix)disablewelcomemention
+Code : $nomention
+ 
+$setServerVar[welcome mention;no]
+ 
+$onlyPerms[managemessages;admin;You dont have sufficient permissions to execute this command]
+ 
+$description[Successfully disabled welcome mention]
+$color[$random[000000;999999]]
