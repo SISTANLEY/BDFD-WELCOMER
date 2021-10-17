@@ -1,0 +1,9 @@
+Trigger : (your prefix)setwelcomemention
+Code : $nomention
+ 
+$setServerVar[welcome mention;yes]
+ 
+$onlyPerms[managemessages;admin;You dont have sufficient permissions to execute this command]
+ 
+$description[Successfully enabled member mention in welcome message]
+$color[$random[000000;999999]]
