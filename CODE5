@@ -1,0 +1,10 @@
+Trigger : (your prefix)set welcome color
+Code : $nomention
+ 
+$setServerVar[welcome color;$message]
+ 
+$description[Successfully setted welcome color to $message]
+$color[$random[000000;999999]]
+ 
+$onlyAdmin[You don't have sufficient permissions to execute this command]
+$onlyIf[$message!=;Please provide a color for your welcome message]
