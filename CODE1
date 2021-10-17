@@ -1,0 +1,8 @@
+Trigger : (your prefix)setwelcomechannel
+Code : $nomention
+$setServerVar[welcome channel;$mentionedChannels[1;no]]
+$description[Successfully setted welcome channel to <#$mentionedChannels[1;yes]>]
+$color[0xFFCE]
+ 
+$onlyIf[$message[1]!=;:negative_squared_cross_mark: Please provide a channel!]
+$onlyPerms[managechannels;admin;You Dont Have Permission To Execute This Command]
