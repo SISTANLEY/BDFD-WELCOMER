@@ -1,0 +1,9 @@
+Trigger : (your prefix)setwelcomedm
+Code : $nomention
+ 
+$description[Successfully enabled dm welcome]
+$color[$random[000000;999999]]
+ 
+$setServerVar[dm welcome;yes]
+ 
+$onlyPerms[admin;You don't have sufficient permissions to execute this command]
