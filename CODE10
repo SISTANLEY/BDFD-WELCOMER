@@ -1,0 +1,12 @@
+Trigger : (your prefix)disablewelcome
+Code : $nomention
+ 
+$setServerVar[welcome channel;]
+$setServerVar[welcome msg;]
+$setServerVar[welcome bg;]
+$setServerVar[welcome color;$random[000000;999999]]
+ 
+$onlyPerms[managechannels;admin;You Dont Have Permission To Execute This Command]
+ 
+$description[Successfully disabled welcome messages]
+$color[$random[000000;999999]]
