@@ -1,0 +1,10 @@
+Trigger : (your prefix)setwelcomemsg
+Code : $nomention
+ 
+$onlyPerms[admin;You can't edit welcome message because you don't have permissions]
+ 
+$setServerVar[welcome msg;$message]
+ 
+$description[**Successfully setted new welcome message to $message**]
+ 
+$color[01FC19]
