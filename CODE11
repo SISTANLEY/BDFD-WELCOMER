@@ -1,0 +1,9 @@
+Trigger : (your prefix)disableautorole 
+Code  : $nomention
+ 
+$setServerVar[stanley role;]
+ 
+$onlyPerms[admin;manageroles;You don't have sufficient permissions to execute this command]
+ 
+$description[Successfully disabled auto role]
+$color[$random[000000;999999]]
