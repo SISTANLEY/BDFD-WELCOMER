@@ -1,0 +1,29 @@
+Trigger : $onJoined[$getServerVar[welcome channel]]
+Code : $if[$getServerVar[welcome mention]==no]
+$nomention
+$endif
+ 
+$if[$getServerVar[welcome msg]!=]
+$title[**WELCOME $username**]
+$description[$getServerVar[welcome msg]]
+$image[$getServerVar[welcome bg]]
+$thumbnail[$authorAvatar]
+$footer[$username #$discriminator[$authorID]]
+$footerIcon[$authorAvatar]
+$color[$getServerVar[welcome color]]
+$endif
+ 
+ 
+$if[$getServerVar[stanley role]!=]
+$giveRole[$authorID;$getServerVar[stanley role]]
+$endif
+ 
+ 
+$if[$getServerVar[dm welcome]!=no]
+$dm[$authorID]
+$endif
+ 
+ 
+$if[$getServerVar[stanley nick]!=]
+$changeUsernameWithID[$authorID;$getServerVar[staley nick] $username]
+$endif
