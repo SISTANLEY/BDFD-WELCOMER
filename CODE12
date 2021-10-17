@@ -1,0 +1,9 @@
+Trigger : (your prefix)disabledmwelcome
+Code : $nomention
+ 
+$setServerVar[dm welcome;no]
+ 
+$onlyAdmin[You don't have admin permission]
+ 
+$description[Successfully disabled dm welcome]
+$color[$random[000000;999999]]
