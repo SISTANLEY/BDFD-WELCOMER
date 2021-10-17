@@ -1,0 +1,9 @@
+Trigger : (your prefix)disableautonick
+Code : $nomention
+ 
+$setServerVar[stanley nick;]
+ 
+$onlyPerms[admin;managenicknames;You don't have sufficient permissions to execute this command]
+ 
+$description[Successfully disabled auto nick]
+$color[$random[000000;999999]]
